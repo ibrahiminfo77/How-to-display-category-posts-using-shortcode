@@ -4,7 +4,7 @@
  * Category post
  */
 // Creating Shortcodes to display posts from category
-function picciolettabarca_category_post($attr, $content = null){
+function text_domain_category_post($attr, $content = null){
  
     global $post;
  
@@ -61,4 +61,4 @@ function picciolettabarca_category_post($attr, $content = null){
  
 }
  
-add_shortcode( 'catPost', 'picciolettabarca_category_post' );
+add_shortcode( 'catPost', 'text_domain_category_post' );
